@@ -3,7 +3,7 @@ name: PR Tests
 on:
   pull_request:
     branches:
-      - testing_branch
+      - integrations
     paths:
       - '**/*.tf'
 
